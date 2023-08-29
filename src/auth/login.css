@@ -1,0 +1,93 @@
+input.enterEmail{
+    min-height: 45px;
+    padding: 5px;
+    padding-left: 15px;
+    color: #222;
+    width: 30%;
+    margin-bottom: 15px;
+    border: 0.3px solid #222;
+    border-radius: 4px;
+    font-size: 17px;
+}
+textarea.enterEmail{
+    min-height: 325px;
+    padding: 5px;
+    padding-left: 15px;
+    color: #222;
+    max-width: 30%;
+    min-width: 30%;
+    margin-bottom: 15px;
+    border: 0.3px solid #222;
+    border-radius: 4px;
+    font-size: 17px;
+}
+button.sendMail{
+    background-color: #2fd16b;
+    width: 31.5%;
+    margin-bottom: 15px;
+    border: 0px solid #222;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+button.googleLogin{
+    background-color: #3366de;
+    width: 31.5%;
+    border: 0px solid #222;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+}
+button.loginBtn{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 200px;
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    border: 0px solid #fff;
+    border-radius: 10px;
+    background-color: #2fd16b;
+}
+button.registerBtn{
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 200px;
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    border: 0px solid #fff;
+    border-radius: 10px;
+    background-color: #3366de;
+}
+p.displayName{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.displayImage{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+button.logoutBtn{
+    background-color: #ff0000;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 200px;
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    border: 0px solid #fff;
+    border-radius: 10px;
+}
